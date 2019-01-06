@@ -1,0 +1,62 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: #2fa4e7;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+  color: #fff;
+  transition: ease-in-out color .15s;
+}
+
+.site-header a:hover {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+/*
+ * Brizk CRM
+ */
+
+.lead {
+  font-weight: 400;
+}
+
+.bs-docs-footer-x9 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #fff;
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+  background-color: #999;
+  bottom: 0;
+  width: 100%;
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal>* {
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .flex-md-equal>* {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
